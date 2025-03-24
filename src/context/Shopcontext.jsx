@@ -1,7 +1,6 @@
 import { createContext, useContext, useState, useEffect } from 'react';
-
-export const ShopContext = createContext(null);
 import { food_list } from '../assets/frontend_assets/assets';
+export const ShopContext = createContext(null);
 export const ShopContextProvider = ({ children }) => {
     const [cartItems, setCartItems] = useState({});
 
