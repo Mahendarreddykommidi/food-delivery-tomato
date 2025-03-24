@@ -110,20 +110,20 @@ li{
 
 @media (max-width:768px) {
     .navbar-logo img{
-        width: 100px;
+        width: 40px;
     }
     .menu-links{
         display: none;
     }
     .navbar-right{
-        gap: 30px;
+        gap: 25px;
 
     }
     .navbar-right img{
-        width: 22px;
+        width: 17px;
     }
     .btn-nav button{
-        padding: 8px 25px;
+        padding: 8px 15px;
     }
     
     

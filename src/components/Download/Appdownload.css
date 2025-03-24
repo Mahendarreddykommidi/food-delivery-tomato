@@ -10,3 +10,18 @@
     width: 200px;
     margin: 10px;
 }
+@media (max-width: 768px) {
+    .appdownload img{
+        width: 100px;
+    }
+    .appdownload{
+        margin: 20px 10px;
+        gap: 10px;
+        text-align: center;
+    }
+    .download-options img{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}
