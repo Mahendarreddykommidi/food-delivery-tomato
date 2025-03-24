@@ -2,9 +2,9 @@ import React from 'react'
 import "./Fooditem.css"
 import { assets } from '../../assets/frontend_assets/assets'
 import { useContext } from 'react'
-import { ShopContextProvider } from '../../context/Shopcontext'
+import { ShopContext } from '../../context/Shopcontext'
 const Fooditem = ({id,price,image,name,description}) => {
-    const {cartItems,addtoCart,removeFromcart}=useContext(ShopContextProvider)
+    const {cartItems,addtoCart,removeFromcart}=useContext(ShopContext)
   return (
     <div className='food-item' >
         <div className="food-item-image">
